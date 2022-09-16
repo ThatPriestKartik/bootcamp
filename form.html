@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background: url(ABSLogo.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position:1000px;"
+                >
+
+
+    
+
+<form>
+
+    <p>
+    <label>Name
+    <input type="text" maxlength="10" name="customer_name" required>
+    </label> 
+    </p>
+    
+    <p>
+    <label>Phone 
+    <input type="tel" name="phone_number">
+    </label>
+    </p>
+    
+    <p>
+    <label>Email 
+    <input type="email" name="email_address">
+    </label>
+    </p>
+    
+    <fieldset>
+    <legend>Which course do you prefer?
+    </legend>
+    <p><label> <input type="checkbox"> Data Science </label></p>
+    <p><label> <input type="checkbox"> Block Chain </label></p>
+    <p><label> <input type="checkbox"> Cloud Computing </label></p>
+    </fieldset>
+    
+    <fieldset>
+    <legend>other preferences</legend>
+    <p><label> <input type="checkbox"> Data Science </label></p>
+    <p><label> <input type="checkbox"> Block Chain </label></p>
+    <p><label> <input type="checkbox"> Cloud Computing </label></p>
+    </fieldset>
+    
+    <p>
+    <label>Date of Birth
+    <input type="datetime-local" name="pickup_time" required>
+    </label>
+    </p>
+        
+    <p>
+    <label>Pickup Place
+    <select id="Branch" name="Branch">
+    <option value="" selected="selected">Select One</option>
+    <option value="CSE" >CSE</option>
+    <option value="IT"> IT</option>
+    <option value="ECE" >ECE</option>
+    </select>
+    </label> 
+    </p>
+    
+    <p>
+    <label>Section
+    <input type="text" name="section" required list="section">
+    </label>
+    
+    <datalist id="section">
+    <option value="A">
+    <option value="B">
+    <option value="C">
+    </datalist>
+    </p>
+    
+    <p>
+    <label>FeedBack of this form xD.
+    <textarea name="comments" maxlength="50"></textarea>
+    </label>
+    </p>
+    
+    <p><button>Submit</button></p>
+    
+    </form>
+
+        
+</body>
+</html>
